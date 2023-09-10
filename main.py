@@ -51,7 +51,7 @@ def auto():
 
 
 
-l1 = Label(root, text="sport: ")
+l1 = Label(root, text="Sport/Event: ")
 l2 = Label(root, text="Number of student")
 l1.grid(row=0, column=0)
 l2.grid(row=1, column=0)
@@ -62,12 +62,3 @@ ns.grid(row=1, column=1)
 b1 = Button(root, text="submit", command=dbox)
 b1.grid(row=2, column=1)
 root.mainloop()
-
-
-# import os
-# from dotenv import load_dotenv
-#
-# load_dotenv()
-#
-# GCP_PROJECT_ID = os.getenv('gcp')
-# print(GCP_PROJECT_ID)

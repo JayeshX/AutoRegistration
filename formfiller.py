@@ -9,8 +9,7 @@ load_dotenv()
 
 class FormAutomation:
     def automation(self,year,idpr,idver,nos,data1,sport):
-        driver_path = os.getenv('driver_path')
-        web = webdriver.Chrome(driver_path)
+        web = webdriver.Chrome() #chrome driver 115 and above does not require you to mention path in this
         url = os.getenv('weburl')
         web.get(url)
         time.sleep(2)
