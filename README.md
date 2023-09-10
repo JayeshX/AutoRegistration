@@ -3,12 +3,12 @@ If you organize events or workshops that require participants to fill out regist
 You can also use this project as a base for auto google form filling through python
 
 
-#What is does?
+# What is does?
 The program fetches data from a excel file. This data is usually redundant. It uses a unique id given to participants (like roll no) to fetch data from this excel and automatically fill a google form.
 connect this file to an excel sheet to record the data
 the path to the data excel and the google form should be mentioned in the .env file
 
-#Important Steps.
+# Important Steps.
 <ul>
 <li> Install selenium,fsspec,openpyxl and pandas</li>
 <li> Download the latest chromedriver. Extract it</li>
